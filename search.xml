@@ -47,7 +47,7 @@
 <p><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/20230628170252.png" width="50%" height="50%"/><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/a001.gif" width="100%" height="100%"/></p>
 <p>the results show that if the bar was generated in a short time, it will produce a wave in x-y plane. and we also can view the double-arm spiral in the $z-V_{z}$ space, and it is a good assumption of the reason of the double-arm spiral in the inner disc and single-arm spiral in the outer.</p>
 <h3 id="the-pattern-speed-of-the-bar-decreasing"><a href="#the-pattern-speed-of-the-bar-decreasing" class="headerlink" title="the pattern speed of the bar decreasing"></a>the pattern speed of the bar decreasing</h3><p>When $t\leq500$Gyr, the pattern speed stay the constant, and when $t&gt;500$Gyr the parttern speed satart deacreasing with the time linearly<br><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/deacreasing_partternspeed.gif"/></p>
-<p>In <a href="https://arxiv.org/pdf/2303.06393.pdf">Li.C et al.(2023)</a>‘s case, the deacreasing of the pattern speed will cause the double-arm spiral. In my case, However, we can see the upper video, that’s not happen.</p>
+<p>In <a href="https://arxiv.org/pdf/2303.06393.pdf">Li.C et al.(2023)</a>‘s case, the deacreasing of the pattern speed will cause the double-arm spiral in $z-v_{z}$ phase space in the inner disc. In my case, However, we can see the upper video, the result is not happen.</p>
 ]]></content>
       <categories>
         <category>science report</category>
