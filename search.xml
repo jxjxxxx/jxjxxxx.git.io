@@ -48,6 +48,13 @@
 <p>the results show that if the bar was generated in a short time, it will produce a wave in x-y plane. and we also can view the double-arm spiral in the $z-V_{z}$ space, and it is a good assumption of the reason of the double-arm spiral in the inner disc and single-arm spiral in the outer.</p>
 <h3 id="the-pattern-speed-of-the-bar-decreasing"><a href="#the-pattern-speed-of-the-bar-decreasing" class="headerlink" title="the pattern speed of the bar decreasing"></a>the pattern speed of the bar decreasing</h3><p>When $t\leq500$Gyr, the pattern speed stay the constant, and when $t&gt;500$Gyr the parttern speed satart deacreasing with the time linearly<br><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/deacreasing_partternspeed.gif"/></p>
 <p>In <a href="https://arxiv.org/pdf/2303.06393.pdf">Li.C et al.(2023)</a>‘s case, the deacreasing of the pattern speed will cause the double-arm spiral in $z-v_{z}$ phase space in the inner disc. In my case, However, we can see the upper video, the result is not happen.</p>
+<p>To be fair, I check the paper and follow the process of the simulation in the paper:</p>
+<ul>
+<li>The pattern speed is -88 km&#x2F;s&#x2F;kpc at 0Gyr, and decreasing to -35 km&#x2F;s&#x2F;kpc at 6Gyr.</li>
+<li>The mass is multipled by a factor: 2.5, and the radial profile is multipled by a factor: 1.5</li>
+</ul>
+<p>and the movie I get:<br><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/simulation_com.gif"/></p>
+<p>I notice that the verticle lenth of the $z-v_{z}$ phase space in the inner disc, Howerver, the doubled-arm spiral is not appear in this simulation, different from the <a href="https://arxiv.org/pdf/2303.06393.pdf">Li.C et al.(2023)</a> </p>
 ]]></content>
       <categories>
         <category>science report</category>
