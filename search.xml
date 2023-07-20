@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>template</title>
+    <url>/2023/06/27/hello-world/</url>
+    <content><![CDATA[<p>this is the abstract of this article</p>
+<p>click read more to show all the text</p>
+<span id="more"></span>
+
+<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>模板</category>
+      </categories>
+      <tags>
+        <tag>模板</tag>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>double arm phase spiral simulation-bar potential</title>
     <url>/2023/06/27/double-arm-phase-spiral-simulation-bar-potential/</url>
     <content><![CDATA[<p>We use the bar potential follow the <a href="https://arxiv.org/pdf/2204.13114.pdf">Sormani et al.(2022)</a>, and trying to figure out what kind of perturbation in bar will produce the doubled-arm spiral in the $z-v_{z}$ phase space. the main parameters I change is the scale of the potential which means the mass of the bar and the pattern speed, in this case I simulated the arisen of the bar, and the doubled-arm spiral will be show up if the time to produce the bar is fast. but in the pattern speed case, I can not reproduce the results of the <a href="https://arxiv.org/pdf/2303.06393.pdf">Li.C et al.(2023)</a>, which is strange for me. </p>
@@ -55,7 +84,11 @@
 </ul>
 <p>and the movie I get:<br><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/simulation_com.gif"/></p>
 <p>I notice that the verticle lenth of the $z-v_{z}$ phase space in the inner disc, Howerver, the doubled-arm spiral is not appear in this simulation, different from the <a href="https://arxiv.org/pdf/2303.06393.pdf">Li.C et al.(2023)</a> </p>
-]]></content>
+<h3 id="v-r-color-code-in-the-simulation"><a href="#v-r-color-code-in-the-simulation" class="headerlink" title="$v_r$ color code in the simulation"></a>$v_r$ color code in the simulation</h3><p>using some typically situation to do the simulation but show the results in the $v_r$ color code:</p>
+<p>the mass rapidly changes:</p>
+<!-- (2023-06-23_04h50min_vr.gif) -->
+
+<img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/2023-06-23_04h50min_vr.gif"/>]]></content>
       <categories>
         <category>science report</category>
       </categories>
@@ -66,32 +99,43 @@
       </tags>
   </entry>
   <entry>
-    <title>template</title>
-    <url>/2023/06/27/hello-world/</url>
-    <content><![CDATA[<p>this is the abstract of this article</p>
-<p>click read more to show all the text</p>
+    <title>progress report</title>
+    <url>/2023/07/14/progress-report/</url>
+    <content><![CDATA[<p>latest update in 2023.07.20</p>
 <span id="more"></span>
 
-<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<h1 id="Introduction-of-the-potential"><a href="#Introduction-of-the-potential" class="headerlink" title="Introduction of the potential"></a>Introduction of the potential</h1><p>We use the bar potential follow the <a href="https://arxiv.org/pdf/2204.13114.pdf">Sormani et al.(2022)</a></p>
+<p>the potential is made of four component:</p>
+<p>$$<br>    \rho &#x3D; \rho_{bar,1} + \rho_{bar,2} + \rho_{bar,3} + \rho_{disc}<br>$$</p>
+<p>the $\rho_{bar,1}$ and $\rho_{bar,2}$ is the center of the bar like a bulge but in a peanut shape. and the $\rho_{bar,3}$ is the long bar part, just like a ear to the bar, and the last one is the disc part. Here shows the picture for those components.</p>
+<!-- ![the main four component of the potential](https://s2.loli.net/2023/06/28/5I6cqf2kmndpTwg.png) -->
 
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<img src="https://s2.loli.net/2023/06/28/5I6cqf2kmndpTwg.png" width="75%"/>
 
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h1 id="The-setup-of-the-potential-and-the-results-from-the-test-particle-simulation"><a href="#The-setup-of-the-potential-and-the-results-from-the-test-particle-simulation" class="headerlink" title="The setup of the potential and the results from the test-particle simulation"></a>The setup of the potential and the results from the test-particle simulation</h1><p>In this section, I will introduce what kind of the potential is set, including the potential of the bar, spiral, and the particle(inner perturbation and the outer perturbation)</p>
+<h2 id="The-bar-shows-up-in-a-sudden-way-not-reality"><a href="#The-bar-shows-up-in-a-sudden-way-not-reality" class="headerlink" title="The bar shows up in a sudden way(not reality)"></a>The bar shows up in a sudden way(not reality)</h2><p>if the bar mass is growing in a rapid way, following the function below:</p>
+<!-- <div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/20230720152522.png" width="25%" height="25%"/></div><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/20230720152522.png" width="25%" height="25%"/></div></div></div> -->
 
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/20230720152522.png" width="30%"/>
 
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/a01.gif"/></div><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/2023-06-23_04h50min_vr.gif"/></div></div></div>
+
+<h2 id="The-bar-shows-up-in-a-smooth-way"><a href="#The-bar-shows-up-in-a-smooth-way" class="headerlink" title="The bar shows up in a smooth way"></a>The bar shows up in a smooth way</h2><p>the amplitude change follow the equation:<br>$$<br>    A(t) &#x3D; \frac{3}{16}\xi^{5}-\frac{5}{8}\xi^{3}+\frac{15}{16}\xi+\frac{1}{2}<br>$$<br>where</p>
+<p>$$<br>    \xi&#x3D;2(\frac{t-t_{form}}{t_{steady}}-1)   \quad t_{form}\leq t \leq t_{form}+t_{steady}<br>$$<br><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/20230720160810.png" width="30%"/></p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/2023-07-20_13h43min.gif"/></div><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/vr_2023-07-20_13h43min.gif"/></div></div></div>
+
+<h3 id="particle-pass-through-the-disk-with-a-bar"><a href="#particle-pass-through-the-disk-with-a-bar" class="headerlink" title="particle pass through the disk with a bar"></a>particle pass through the disk with a bar</h3><p>the particle’s initial parameters:</p>
+<ul>
+<li>$x&#x3D;8kpc, y&#x3D;0kpc, z&#x3D;300kpc$</li>
+<li>$v_x&#x3D;0km&#x2F;s, v_y&#x3D;0 km&#x2F;s, v_z&#x3D;-300km&#x2F;s$</li>
+</ul>
+<p>after the bar’s formation($t_{form}&#x3D;0.25Gyr,t_{steady}&#x3D;0.75Gyr$):</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/2023-07-20_18h15min.gif"/></div><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/vr_2023-07-20_18h15min.gif"/></div></div></div>
+
+<p>what if a higher speed of the particle?</p>
 ]]></content>
-      <categories>
-        <category>模板</category>
-      </categories>
       <tags>
-        <tag>模板</tag>
-        <tag>教程</tag>
+        <tag>report</tag>
       </tags>
   </entry>
 </search>
