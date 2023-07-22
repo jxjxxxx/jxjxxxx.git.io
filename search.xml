@@ -100,8 +100,8 @@
   </entry>
   <entry>
     <title>progress report</title>
-    <url>/2023/07/14/progress-report/</url>
-    <content><![CDATA[<p>latest update in 2023.07.20</p>
+    <url>/2023/07/22/progress-report/</url>
+    <content><![CDATA[<p>latest update in 2023.07.22</p>
 <span id="more"></span>
 
 <h1 id="Introduction-of-the-potential"><a href="#Introduction-of-the-potential" class="headerlink" title="Introduction of the potential"></a>Introduction of the potential</h1><p>We use the bar potential follow the <a href="https://arxiv.org/pdf/2204.13114.pdf">Sormani et al.(2022)</a></p>
@@ -122,7 +122,7 @@
 
 <h2 id="The-bar-shows-up-in-a-smooth-way"><a href="#The-bar-shows-up-in-a-smooth-way" class="headerlink" title="The bar shows up in a smooth way"></a>The bar shows up in a smooth way</h2><p>the amplitude change follow the equation:<br>$$<br>    A(t) &#x3D; \frac{3}{16}\xi^{5}-\frac{5}{8}\xi^{3}+\frac{15}{16}\xi+\frac{1}{2}<br>$$<br>where</p>
 <p>$$<br>    \xi&#x3D;2(\frac{t-t_{form}}{t_{steady}}-1)   \quad t_{form}\leq t \leq t_{form}+t_{steady}<br>$$<br><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/20230720160810.png" width="30%"/></p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/2023-07-20_13h43min.gif"/></div><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/vr_2023-07-20_13h43min.gif"/></div></div></div>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/2023-07-20_13h43min.gif"/></div><div class="group-picture-column"><img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/vr_2023-07-20_13h43min.gif"/></div></div></div>
 
 <h3 id="particle-pass-through-the-disk-with-a-bar"><a href="#particle-pass-through-the-disk-with-a-bar" class="headerlink" title="particle pass through the disk with a bar"></a>particle pass through the disk with a bar</h3><p>the particle’s initial parameters:</p>
 <ul>
@@ -131,10 +131,10 @@
 <li>$v_x&#x3D;0km&#x2F;s, v_y&#x3D;0 km&#x2F;s, v_z&#x3D;-300km&#x2F;s$</li>
 </ul>
 <p>after the bar’s formation($t_{form}&#x3D;0.25Gyr,t_{steady}&#x3D;0.75Gyr$):</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/2023-07-20_18h15min.gif"/></div><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/vr_2023-07-20_18h15min.gif"/></div></div></div>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/2023-07-20_18h15min.gif"/></div><div class="group-picture-column"><img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/vr_2023-07-20_18h15min.gif"/></div></div></div>
 
 <p>what if a higher speed of the particle($v_z&#x3D;-1000km&#x2F;s$)?</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/2023-07-20_21h06min.gif"/></div><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/vr_2023-07-20_21h06min.gif"/></div></div></div>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/2023-07-20_21h06min.gif"/></div><div class="group-picture-column"><img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/vr_2023-07-20_21h06min.gif"/></div></div></div>
 
 
 <h3 id="simulate-a-massive-cloud-rotates-in-a-circular-orbit"><a href="#simulate-a-massive-cloud-rotates-in-a-circular-orbit" class="headerlink" title="simulate a massive cloud rotates in a circular orbit"></a>simulate a massive cloud rotates in a circular orbit</h3><p>the cloud’s initial parameters:(bar formation stays the same)</p>
@@ -143,13 +143,23 @@
 <li>$x&#x3D;5kpc, y&#x3D;0kpc, z&#x3D;0kpc$</li>
 <li>$v_r&#x3D;50km&#x2F;s$</li>
 </ul>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/2023-07-20_19h03min.gif"/></div><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/vr_2023-07-20_19h03min.gif"/></div></div></div>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/2023-07-20_19h03min.gif"/></div><div class="group-picture-column"><img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/vr_2023-07-20_19h03min.gif"/></div></div></div>
 
 <p>the larger size radius&#x3D;$1kpc$</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/2023-07-20_19h20min.gif"/></div><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/vr_2023-07-20_19h20min.gif"/></div></div></div>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/2023-07-20_19h20min.gif"/></div><div class="group-picture-column"><img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/vr_2023-07-20_19h20min.gif"/></div></div></div>
 
 <p>and the slower cloud(radius&#x3D;$1kpc$): $v_r&#x3D;25km&#x2F;s$</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/2023-07-20_20h25min.gif"/></div><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/vr_2023-07-20_20h25min.gif"/></div></div></div>]]></content>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/2023-07-20_20h25min.gif"/></div><div class="group-picture-column"><img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/vr_2023-07-20_20h25min.gif"/></div></div></div>
+
+<h3 id="The-pattern-speed-of-the-bar"><a href="#The-pattern-speed-of-the-bar" class="headerlink" title="The pattern speed of the bar"></a>The pattern speed of the bar</h3><p>Changing the pattern speed of the bar:</p>
+<p>the function of the pattern speed:</p>
+<img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/202307221406261.png" width="30%"/>
+
+<p>and we can get double-armed phase spiral of the $z-v_z$ space:</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/2023-07-21_23h02min.gif"/></div><div class="group-picture-column"><img src="https://raw.githubusercontent.com/jxjxxxx/markdownimage/main/vr_2023-07-21_23h02min.gif"/></div></div></div>
+
+
+]]></content>
       <tags>
         <tag>report</tag>
       </tags>
