@@ -99,6 +99,30 @@
       </tags>
   </entry>
   <entry>
+    <title>progress report part2(analyze of the simulation)</title>
+    <url>/2023/07/22/progress-report-part2-analyze-of-the-simulation/</url>
+    <content><![CDATA[<p>latest update in 2023.07.22</p>
+<span id="more"></span>
+
+<h1 id="The-to-do-list-of-the-analysis"><a href="#The-to-do-list-of-the-analysis" class="headerlink" title="The to-do list of the analysis"></a>The to-do list of the analysis</h1><ul>
+<li>check the phase space using $v_r&gt;0$ and $v_r&lt;0$ in the cloud situation</li>
+<li>track the particle on the ring in the bar get a large mass suddenly situation to make sure the simulation is right.</li>
+<li>the cloud particle should follow the velocity curve in the Milky Way</li>
+<li>the $\Omega_z-\theta_z$ space is also a important space to analyze.</li>
+</ul>
+<h2 id="using-v-r-gt-0-and-v-r-lt-0"><a href="#using-v-r-gt-0-and-v-r-lt-0" class="headerlink" title="using $v_r&gt;0$ and $v_r&lt;0$"></a>using $v_r&gt;0$ and $v_r&lt;0$</h2><p>The simulation data:</p>
+<p>the cloud’s initial parameters:</p>
+<ul>
+<li>mass&#x3D;$1 \times 10^{9} M_{\odot}$,radius&#x3D;$1.0kpc$</li>
+<li>$x&#x3D;5kpc, y&#x3D;0kpc, z&#x3D;0kpc$</li>
+<li>$v_r&#x3D;50km&#x2F;s$</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>report</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>progress report</title>
     <url>/2023/07/22/progress-report/</url>
     <content><![CDATA[<p>latest update in 2023.07.22</p>
