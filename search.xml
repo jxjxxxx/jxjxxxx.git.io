@@ -3,7 +3,7 @@
   <entry>
     <title>compare with Li.C et al.2023</title>
     <url>/2023/07/26/compare-with-Li-C-et-al-2023/</url>
-    <content><![CDATA[<p>the reproduce work of the <a href="https://arxiv.org/abs/2303.06393">Li.C et al.2023</a></p>
+    <content><![CDATA[<p>the repetition work of the <a href="https://arxiv.org/abs/2303.06393">Li.C et al.2023</a></p>
 <span id="more"></span>
 
 <h1 id="Observation-part"><a href="#Observation-part" class="headerlink" title="Observation part"></a>Observation part</h1><h2 id="The-Gaia-DR3-sample"><a href="#The-Gaia-DR3-sample" class="headerlink" title="The Gaia DR3 sample"></a>The Gaia DR3 sample</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">SELECT source_id, radial_velocity, radial_velocity_error, ra, ra_error, dec, dec_error, parallax, parallax_error, pmra, pmra_error, pmdec, pmdec_error</span><br><span class="line"></span><br><span class="line">FROM gaiadr3.gaia_source</span><br><span class="line"></span><br><span class="line">WHERE radial_velocity IS NOT Null AND parallax_over_error&gt;5. AND parallax &gt; 0.001</span><br></pre></td></tr></table></figure>
