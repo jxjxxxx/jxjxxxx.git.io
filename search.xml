@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>compare with Li.C et al.2023</title>
+    <url>/2023/07/26/compare-with-Li-C-et-al-2023/</url>
+    <content><![CDATA[<p>the reproduce work of the <a href="https://arxiv.org/abs/2303.06393">Li.C et al.2023</a></p>
+<span id="more"></span>
+
+<h1 id="Observation-part"><a href="#Observation-part" class="headerlink" title="Observation part"></a>Observation part</h1><h2 id="The-Gaia-DR3-sample"><a href="#The-Gaia-DR3-sample" class="headerlink" title="The Gaia DR3 sample"></a>The Gaia DR3 sample</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">SELECT source_id, radial_velocity, radial_velocity_error, ra, ra_error, dec, dec_error, parallax, parallax_error, pmra, pmra_error, pmdec, pmdec_error</span><br><span class="line"></span><br><span class="line">FROM gaiadr3.gaia_source</span><br><span class="line"></span><br><span class="line">WHERE radial_velocity IS NOT Null AND parallax_over_error&gt;5. AND parallax &gt; 0.001</span><br></pre></td></tr></table></figure>
+
+<p>the x-y plane and x-z plane</p>
+<img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202307261546892.png"/>
+
+
+<h2 id="the-phase-space"><a href="#the-phase-space" class="headerlink" title="the phase space"></a>the phase space</h2><p>in different $J_{\phi}$ , the phase space:</p>
+<img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202307261623128.png"/>
+
+<p>if color code by the $v_{r}$:<br><img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202307261630694.png"/></p>
+<p>and We should also focus on the $\Omega_{z}-\theta_{z}$ space:</p>
+<img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202307261642999.png"/>]]></content>
+      <tags>
+        <tag>science report</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>double arm phase spiral simulation-bar potential</title>
     <url>/2023/06/27/double-arm-phase-spiral-simulation-bar-potential/</url>
     <content><![CDATA[<p>We use the bar potential follow the <a href="https://arxiv.org/pdf/2204.13114.pdf">Sormani et al.(2022)</a>, and trying to figure out what kind of perturbation in bar will produce the doubled-arm spiral in the $z-v_{z}$ phase space. the main parameters I change is the scale of the potential which means the mass of the bar and the pattern speed, in this case I simulated the arisen of the bar, and the doubled-arm spiral will be show up if the time to produce the bar is fast. but in the pattern speed case, I can not reproduce the results of the <a href="https://arxiv.org/pdf/2303.06393.pdf">Li.C et al.(2023)</a>, which is strange for me. </p>
