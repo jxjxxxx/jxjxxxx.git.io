@@ -127,33 +127,6 @@
       </tags>
   </entry>
   <entry>
-    <title>progress report part2(analyze of the simulation)</title>
-    <url>/2023/07/22/progress-report-part2-analyze-of-the-simulation/</url>
-    <content><![CDATA[<p>latest update in 2023.07.22</p>
-<span id="more"></span>
-
-<h1 id="The-to-do-list-of-the-analysis"><a href="#The-to-do-list-of-the-analysis" class="headerlink" title="The to-do list of the analysis"></a>The to-do list of the analysis</h1><ul>
-<li>check the phase space using $v_r&gt;0$ and $v_r&lt;0$ in the cloud situation</li>
-<li>track the particle on the ring in the bar get a large mass suddenly situation to make sure the simulation is right.</li>
-<li>the cloud particle should follow the rotation curve in the Milky Way</li>
-<li>the $\Omega_z-\theta_z$ space is also a important space to analyze.</li>
-</ul>
-<h2 id="using-v-r-gt-0-and-v-r-lt-0"><a href="#using-v-r-gt-0-and-v-r-lt-0" class="headerlink" title="using $v_r&gt;0$ and $v_r&lt;0$"></a>using $v_r&gt;0$ and $v_r&lt;0$</h2><p>The simulation data:</p>
-<p>the cloud’s initial parameters:</p>
-<ul>
-<li>mass&#x3D;$1 \times 10^{9} M_{\odot}$,radius&#x3D;$1.0kpc$</li>
-<li>$x&#x3D;5kpc, y&#x3D;0kpc, z&#x3D;0kpc$</li>
-<li>$v_r&#x3D;50km&#x2F;s$</li>
-</ul>
-<p>The original radial velocity color code:<br><img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/vr_2023-07-20_19h20min.gif"/></p>
-<p>The radial velocity is positive(negative velocity is set to be zero):<br><img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/vr_23h02min_pos.gif"/></p>
-<p>negative velocity:<br><img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/vr_23h02min_neg.gif"/></p>
-]]></content>
-      <tags>
-        <tag>report</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>progress report</title>
     <url>/2023/07/22/progress-report/</url>
     <content><![CDATA[<p>latest update in 2023.07.22</p>
@@ -217,6 +190,34 @@
 ]]></content>
       <tags>
         <tag>report</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>report 2023 08 26</title>
+    <url>/2023/08/26/report-2023-08-26/</url>
+    <content><![CDATA[<span id="more"></span>
+
+<h1 id="simulation-work"><a href="#simulation-work" class="headerlink" title="simulation work"></a>simulation work</h1><ul>
+<li>only decreasing pattern speed bar exits in the simulation</li>
+<li>only the spiral(no bar) in the simulation</li>
+<li>contain both in the simulation</li>
+</ul>
+<p>If only the bar in the simulation</p>
+<img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/15h58min.gif"/>
+
+<p>only the spiral in the simulation</p>
+<img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/16h45min.gif"/>
+
+<p>contain both in the simulation</p>
+<img src="https://media.githubusercontent.com/media/JunxianLin/markdownimage/master/13h40min_zoom.gif"/>
+
+
+<h2 id="problem"><a href="#problem" class="headerlink" title="problem"></a>problem</h2><p>my simulation work shows that the spiral has a huge impact on the $v_{r}$ color code $z-v_z$ space(but this kind of influence doesn’t show in the Li.C’s snapshot of the simulation), and I wonder if there is some problems on the introduce of the spiral in the simulation.</p>
+<p>And my simulation shows a different result to the Li.C’s, I wonder if my code have any problem.</p>
+<h2 id="my-fixing-of-the-problem"><a href="#my-fixing-of-the-problem" class="headerlink" title="my fixing of the problem"></a>my fixing of the problem</h2><p>I let the bar and spiral show in a gentle way.(undone)</p>
+]]></content>
+      <tags>
+        <tag>science report</tag>
       </tags>
   </entry>
 </search>
