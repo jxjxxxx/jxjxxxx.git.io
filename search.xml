@@ -98,35 +98,6 @@
       </tags>
   </entry>
   <entry>
-    <title>template</title>
-    <url>/2023/06/27/hello-world/</url>
-    <content><![CDATA[<p>this is the abstract of this article</p>
-<p>click read more to show all the text</p>
-<span id="more"></span>
-
-<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>模板</category>
-      </categories>
-      <tags>
-        <tag>模板</tag>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>progress report</title>
     <url>/2023/07/22/progress-report/</url>
     <content><![CDATA[<p>latest update in 2023.07.22</p>
@@ -193,7 +164,36 @@
       </tags>
   </entry>
   <entry>
-    <title>report 2023 08 26</title>
+    <title>template</title>
+    <url>/2023/06/27/hello-world/</url>
+    <content><![CDATA[<p>this is the abstract of this article</p>
+<p>click read more to show all the text</p>
+<span id="more"></span>
+
+<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>模板</category>
+      </categories>
+      <tags>
+        <tag>模板</tag>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>progress 2023 08 26</title>
     <url>/2023/08/26/report-2023-08-26/</url>
     <content><![CDATA[<span id="more"></span>
 
@@ -215,7 +215,19 @@
 <h2 id="problem"><a href="#problem" class="headerlink" title="problem"></a>problem</h2><p>my simulation work shows that the spiral has a huge impact on the $v_{r}$ color code $z-v_z$ space(but this kind of influence doesn’t show in the Li.C’s snapshot of the simulation), and I wonder if there is some problems on the introduce of the spiral in the simulation.</p>
 <p>And my simulation shows a different result to the Li.C’s, I wonder if my code have any problem.</p>
 <h2 id="my-fixing-of-the-problem"><a href="#my-fixing-of-the-problem" class="headerlink" title="my fixing of the problem"></a>my fixing of the problem</h2><p>I let the bar and spiral show in a gentle way.(undone)</p>
-]]></content>
+<h1 id="Observation"><a href="#Observation" class="headerlink" title="Observation"></a>Observation</h1><p>I did the separate into the $v_{r}$ to the observation data:</p>
+<p>the total data:</p>
+<img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202308261931919.png"/>
+
+<p>the inner disk<br>$1400&lt;J_{\phi}&lt;1500$:</p>
+<img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202308261934646.png"/>
+
+
+<p>$1500&lt;J_{\phi}&lt;1600$:</p>
+<img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202308261933816.png"/>
+
+<p>$1600&lt;J_{\phi}&lt;1700$:</p>
+<img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202308261935194.png"/>]]></content>
       <tags>
         <tag>science report</tag>
       </tags>
