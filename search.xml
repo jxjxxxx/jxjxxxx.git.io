@@ -98,6 +98,64 @@
       </tags>
   </entry>
   <entry>
+    <title>template</title>
+    <url>/2023/06/27/hello-world/</url>
+    <content><![CDATA[<p>this is the abstract of this article</p>
+<p>click read more to show all the text</p>
+<span id="more"></span>
+
+<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>模板</category>
+      </categories>
+      <tags>
+        <tag>模板</tag>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>observation data finding</title>
+    <url>/2023/09/02/observation-data-finding/</url>
+    <content><![CDATA[<p>some new finding in the Gaia DR3 observation data</p>
+<span id="more"></span>
+
+<h1 id="Gaia-Data-sample"><a href="#Gaia-Data-sample" class="headerlink" title="Gaia Data sample"></a>Gaia Data sample</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">SELECT source_id, radial_velocity, radial_velocity_error, ra, ra_error, dec, dec_error, parallax, parallax_error, pmra, pmra_error, pmdec, pmdec_error</span><br><span class="line"></span><br><span class="line">FROM gaiadr3.gaia_source</span><br><span class="line"></span><br><span class="line">WHERE radial_velocity IS NOT Null AND parallax_over_error&gt;5. AND parallax &gt; 0.001</span><br></pre></td></tr></table></figure>
+
+<p>distance: Bailer-Jones distance</p>
+<h2 id="z-v-z-phase-space-in-different-J-phi-with-v-r-gt-0-and-v-r-lt-0"><a href="#z-v-z-phase-space-in-different-J-phi-with-v-r-gt-0-and-v-r-lt-0" class="headerlink" title="$z-v_z$ phase space in different $J_{\phi}$ with $v_r&gt;0$ and $v_{r}&lt;0$"></a>$z-v_z$ phase space in different $J_{\phi}$ with $v_r&gt;0$ and $v_{r}&lt;0$</h2><h3 id="1400-lt-J-phi-lt-1500"><a href="#1400-lt-J-phi-lt-1500" class="headerlink" title="$1400&lt;J_{\phi}&lt;1500$:"></a>$1400&lt;J_{\phi}&lt;1500$:</h3><img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309021520418.png"/>
+
+<h3 id="1500-lt-J-phi-lt-1600-obvious-double-armed-phase-spiral-in-v-r-gt-0"><a href="#1500-lt-J-phi-lt-1600-obvious-double-armed-phase-spiral-in-v-r-gt-0" class="headerlink" title="$1500&lt;J_{\phi}&lt;1600$ (obvious double-armed phase spiral in $v_{r}$&gt;0):"></a>$1500&lt;J_{\phi}&lt;1600$ (obvious double-armed phase spiral in $v_{r}$&gt;0):</h3><img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309021521003.png"/>
+
+<img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309021532291.png"/>
+
+
+<h3 id="1600-lt-J-phi-lt-1700"><a href="#1600-lt-J-phi-lt-1700" class="headerlink" title="$1600&lt;J_{\phi}&lt;1700$"></a>$1600&lt;J_{\phi}&lt;1700$</h3><img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309021522665.png"/>
+
+<h3 id="1700-lt-J-phi-lt-1800"><a href="#1700-lt-J-phi-lt-1800" class="headerlink" title="$1700&lt;J_{\phi}&lt;1800$"></a>$1700&lt;J_{\phi}&lt;1800$</h3><img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309021522400.png"/>
+
+<h3 id="1800-lt-J-phi-lt-1900"><a href="#1800-lt-J-phi-lt-1900" class="headerlink" title="$1800&lt;J_{\phi}&lt;1900$"></a>$1800&lt;J_{\phi}&lt;1900$</h3><img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309021523829.png"/>
+
+<h3 id="1900-lt-J-phi-lt-2000"><a href="#1900-lt-J-phi-lt-2000" class="headerlink" title="$1900&lt;J_{\phi}&lt;2000$"></a>$1900&lt;J_{\phi}&lt;2000$</h3><img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309021523294.png"/>
+
+]]></content>
+      <tags>
+        <tag>for paper</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>progress report</title>
     <url>/2023/07/22/progress-report/</url>
     <content><![CDATA[<p>latest update in 2023.07.22</p>
@@ -164,38 +222,10 @@
       </tags>
   </entry>
   <entry>
-    <title>template</title>
-    <url>/2023/06/27/hello-world/</url>
-    <content><![CDATA[<p>this is the abstract of this article</p>
-<p>click read more to show all the text</p>
-<span id="more"></span>
-
-<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>模板</category>
-      </categories>
-      <tags>
-        <tag>模板</tag>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>progress 2023 08 26</title>
     <url>/2023/08/26/report-2023-08-26/</url>
-    <content><![CDATA[<span id="more"></span>
+    <content><![CDATA[<p>progress in 2023 08 26</p>
+<span id="more"></span>
 
 <h1 id="simulation-work"><a href="#simulation-work" class="headerlink" title="simulation work"></a>simulation work</h1><ul>
 <li>only decreasing pattern speed bar exits in the simulation</li>
