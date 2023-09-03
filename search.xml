@@ -150,6 +150,29 @@
 
 <h3 id="1900-lt-J-phi-lt-2000"><a href="#1900-lt-J-phi-lt-2000" class="headerlink" title="$1900&lt;J_{\phi}&lt;2000$"></a>$1900&lt;J_{\phi}&lt;2000$</h3><img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309021523294.png"/>
 
+<h2 id="further-analysis-of-the-2-armed-spiral"><a href="#further-analysis-of-the-2-armed-spiral" class="headerlink" title="further analysis of the 2-armed spiral"></a>further analysis of the 2-armed spiral</h2><p>for $1500&lt;J_{\phi}&lt;1600$:</p>
+<img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309021543516.png"/>
+
+<p>it is a quite clear 2-armed phase spiral in the $v_r&gt;0$ </p>
+<h3 id="color-coded-by-v-phi"><a href="#color-coded-by-v-phi" class="headerlink" title="color-coded by $v_{\phi}$"></a>color-coded by $v_{\phi}$</h3><img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309031737187.png"/>
+
+<p>even can not tell a spiral in this picture. just a high density area in the center.</p>
+<h3 id="trace-the-2-armed-spiral-to-estimate-the-perturbation-time"><a href="#trace-the-2-armed-spiral-to-estimate-the-perturbation-time" class="headerlink" title="trace the 2-armed spiral to estimate the perturbation time"></a>trace the 2-armed spiral to estimate the perturbation time</h3><img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309022312030.png"/>
+compare to the another 2-armed phase spiral given by the Hunt 2023:
+
+<img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309022310567.png"/>
+
+<h3 id="the-plane-of-this-kind-of-plane"><a href="#the-plane-of-this-kind-of-plane" class="headerlink" title="the plane of this kind of plane"></a>the plane of this kind of plane</h3><p>x-y plane($&lt;v_{z}&gt;$ color-code)</p>
+<img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309031727096.png"/>
+
+<p>in this picture, I can not notice any useful structure to illustrate the difference of the breathing mode and the bending mode.</p>
+<p>x-y plane($\Delta v_{z}$ color-code)</p>
+<img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309031851163.png"/>
+
+<p>R-z plane($v_{z}$ color-code):</p>
+<img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309031723851.png"/>
+
+<p>this R-z plane shows the features of the breathing mode.</p>
 ]]></content>
       <tags>
         <tag>for paper</tag>
