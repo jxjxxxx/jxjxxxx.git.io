@@ -162,12 +162,21 @@ compare to the another 2-armed phase spiral given by the Hunt 2023:
 
 <img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309022310567.png"/>
 
-<h3 id="the-plane-of-this-kind-of-plane"><a href="#the-plane-of-this-kind-of-plane" class="headerlink" title="the plane of this kind of plane"></a>the plane of this kind of plane</h3><p>x-y plane($&lt;v_{z}&gt;$ color-code)</p>
+<h3 id="different-plane-analysis"><a href="#different-plane-analysis" class="headerlink" title="different plane analysis"></a>different plane analysis</h3><p>x-y plane($&lt;v_{z}&gt;$ color-code)</p>
 <img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309031727096.png"/>
 
 <p>in this picture, I can not notice any useful structure to illustrate the difference of the breathing mode and the bending mode.</p>
-<p>x-y plane($\Delta v_{z}$ color-code)</p>
-<img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309031851163.png"/>
+<p>x-y plane($v_{breath}$ and $v_{bend}$)</p>
+<p>$$<br>    v_{breath} &#x3D; \frac{v_{z&gt;0,mean}-v_{z&lt;0,mean}}{2}<br>$$</p>
+<p>$$<br>    v_{bend} &#x3D; \frac{v_{z&gt;0,mean}+v_{z&lt;0,mean}}{2}<br>$$</p>
+<p>$v_{breath}$:</p>
+<img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309031909055.png"/>
+
+<p>$v_{bend}$:</p>
+<img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309031909169.png"/>
+
+
+
 
 <p>R-z plane($v_{z}$ color-code):</p>
 <img src="https://raw.githubusercontent.com/JunxianLin/markdownimage/main/202309031723851.png"/>
